@@ -7,7 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "qz": "bin/qz"
+    "qz": "bin/qz",
+    "qz-add": "bin/qz-add",
+    "qz-delete": "bin/qz-delete",
+    "qz-list": "bin/qz-list",
+    "qz-init": "bin/qz-init"
   },
   "dependencies": {
     "chalk": "^2.4.2",
